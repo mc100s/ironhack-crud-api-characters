@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ironhack CRUD API Characters</title>
+</head>
+<body>
+  <h1>Ironhack CRUD API Characters</h1>
+
+  <h2>All Characters</h2>
+
+  <div class="characters-list">Loading...</div>
+
+  <h2>Create Character</h2>
+
+  <form>
+    Name: <input type="text" name="name"> <br>
+    Occupation: <input type="text" name="occupation"> <br>
+    Weapon: <input type="text" name="weapon"> <br>
+    Debt: 
+    <select name="debt" id="">
+      <option value="true">Yes</option>
+      <option value="false">No</option>
+    </select>
+    <br>
+    <button class="create-character">Create character</button>
+  </form>
+
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
